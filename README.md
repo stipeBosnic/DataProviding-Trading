@@ -1,8 +1,8 @@
 
-Create the the trading database.
- Start the TradingApplication.
- Start kafka server.
- Start DataConsumerApplication.
+Create the the trading database.<br>
+ Start the TradingApplication.<br>
+ Start kafka server.<br>
+ Start DataConsumerApplication.<br>
  Start DataGeneratorApplication.
 
 
