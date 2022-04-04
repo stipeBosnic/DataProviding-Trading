@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="trading" />
-        <module name="DataProviding-Trading" />
         <module name="DataGenerator" />
         <module name="DataConsumer" />
       </profile>

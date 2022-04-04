@@ -50,7 +50,7 @@ public class Match {
     @Column(name = "tournament_id")
     @Min(value = 1, message = "The tournament id must be greater than 1")
     @NotNull (message = "tournament id is required")
-    private int tournamentid;
+    private int tournamentId;
 
     @ManyToOne
     @JoinColumn(name = "tournament_id", insertable = false, updatable = false)
