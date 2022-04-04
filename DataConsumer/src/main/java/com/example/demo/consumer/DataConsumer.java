@@ -21,7 +21,7 @@ public class DataConsumer {
     @Autowired
     MarketPickService marketPickService;
 
-    @KafkaListener(topics = "dataTopic3", groupId = "spring-kafka")
+    @KafkaListener(topics = "data", groupId = "spring-kafka")
     public void dataConsumer(Data data) {
         Match match = new Match(data.getHomeTeam(), data.getAwayTeam(), data.getStartTime(), data.getTournamentId(), data.getDataId());
         matchService.saveMatch(match);
